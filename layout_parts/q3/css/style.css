@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-table {
+.menu  {
   text-align: center;
   padding: 10px;
   table-layout: fixed;
@@ -10,7 +10,7 @@ table {
 }
 
 
-th {
+.menu th {
   color: #fff;
   background-color: #2244aa;
   font-size: 18px;
@@ -19,17 +19,17 @@ th {
   border: solid #fff 1px;
 }
 
-td {
+.menu td {
   font-size: 16px;
   line-height: 22px;
   border: solid #dedede 1px;
 }
 
-tr:nth-child(2) {
+.menu tr:nth-child(2) {
   background-color: #ecf1f2;
 }
 
-tr:nth-child(4) {
+.menu tr:nth-child(4) {
   background-color: #ecf1f2;
   border-bottom: dashed #000 2px;
 }
