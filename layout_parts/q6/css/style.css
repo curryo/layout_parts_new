@@ -3,13 +3,12 @@
 /* 回答はここに書いてね */
 
 
-
-.textbox {
+.dis_textbox {
   text-align: center;
 }
 
 
-.text {
+.dis_text {
   display: inline-block;
   width: 90px;
   background-color: #e6f2ff;
@@ -20,42 +19,42 @@
   width: 90px;
   background-color: #e6f2ff;
   padding: 10px 0;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
 }
 
-.box2 {
+.table_box {
   display: table;
 }
 
-.textbox2 {
+.table_textbox {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-.text2 {
+.table_text {
   background-color: #fff;
   padding: 10px;
   display: inline-block;
 }
 
-.box3 {
+.flex_box {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.text3 {
+.flex_text {
   background-color: #fff;
   padding: 10px;
 }
 
-.box4 {
+.pos_box {
   position: relative;
 }
 
-.text4 {
+.pos_text {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -64,11 +63,11 @@
   margin: auto;
 }
 
-.box5 {
+.tran_box {
   position: relative;
 }
 
-.text5 {
+.tran_text {
   position: absolute;
   top: 50%;
   left: 50%;

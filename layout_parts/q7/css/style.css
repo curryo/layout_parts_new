@@ -30,7 +30,7 @@
   padding-left: 50px;
 }
 
-.text2 {
+.cell_text {
   width: 225px;
   font-size: 16px;
   box-sizing: border-box;
@@ -40,11 +40,11 @@
   padding-left: 0;
 }
 
-.box3 {
+.inline_box {
   font-size: 0;
 }
 
-.text3 {
+.inline_text {
   width: 225px;
   font-size: 16px;
   display: inline-block;
@@ -53,23 +53,23 @@
   box-sizing: border-box;
 }
 
-.text3:first-child {
+.inline_text:first-child {
   margin-left: 0;
 }
 
-.box4 {
+.flex_box {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.text4 {
+.flex_text {
   width: 225px;
   font-size: 16px;
   box-sizing: border-box;
 }
 
-.box5 {
+.container {
   font-size: 0;
 }
 

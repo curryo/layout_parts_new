@@ -23,15 +23,15 @@
   font-size: 16px;
   line-height: 22px;
   border: solid #dedede 1px;
+  vertical-align: middle;
 }
 
-.menu tr:nth-child(2) {
+.menu tr:nth-child(even) {            
   background-color: #ecf1f2;
 }
 
-.menu tr:nth-child(4) {
-  background-color: #ecf1f2;
-  border-bottom: dashed #000 2px;
+.menu tfoot tr {
+  border-top: dashed #000 2px;
 }
 
 
