@@ -1,5 +1,30 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.ballon {
+  position: relative;
+  width: 500px;
+  padding: 20px;
+  border: solid 5px #222;
+  border-radius: 30px;
+  margin: auto;
+}
 
+.ballon::after {
+  content: "";
+  position: absolute;
+  bottom: -41px;
+  left: 20px;
+  border: 25px solid transparent;
+  border-top: solid 25px #fff;
+}
+
+.ballon::before {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+  border: solid 25px transparent;
+  border-top: solid 25px #222;
+}
 /* 回答はここに書いてね */
